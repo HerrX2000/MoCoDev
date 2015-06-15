@@ -1,0 +1,105 @@
+/*
+	Style 
+	Name: Basis
+	Version: alpha
+	Creator: Freddy
+	*/
+	
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+	/*Allegemeines*/
+body {
+	height:100%;
+	min-width:960px;
+	background-color:#FFFFFF;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:Helvetica, Verdana, Roboto, sans-serif;
+	color:#1C1C1C;
+	margin:0;
+	padding:0;
+	}
+
+
+#header {
+	max-height:14%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px; 
+}
+#middle {
+
+}
+#background {
+background-color:#E4E4E4;
+	height:100%;
+}
+#container{
+	max-width:1480px;
+	padding-top:8px;
+	margin:0 auto;
+}
+#container_left {
+    line-height:30px;
+    background-color:#eeeeee;
+	height:70%;
+    width:240px;
+    float:left;
+    padding:5px; 
+	margin-top:26px
+}
+#container_right{
+    line-height:30px;
+    background-color:#eeeeee;
+    width:240px;
+    float:right;
+    padding:5px; 
+	margin-top:26px
+}
+
+#container_center{
+	background-color:#FAFAFA;
+	margin-top:12px;
+	margin-left:300px;
+	margin-right:300px;
+	margin-bottom:42px;
+	padding-top:12px;
+	padding-left:28px;
+	padding-right:28px;
+	padding-bottom:12px;
+	overflow:auto;
+	box-shadow: 4px 4px 2px #848484;
+}
+.section {
+    padding:20px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+	max-height:8%;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	width:100%;
+}
+
+a.block {
+	color:#424242;
+	margin-left:-3px;
+	margin-right:-3px;
+	text-align:center;
+	display:inline-block;
+	background-color:#E6E6E6;
+	text-decoration:none;
+	text-shadow:none;
+	}
+a.block:hover {
+	background-color:#BDBDBD;
+	}

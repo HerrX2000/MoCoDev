@@ -1,0 +1,48 @@
+/*
+	Style 
+	Name: Basis
+	Version: alpha
+	Creator: Freddy
+	*/
+
+select,input{
+width: 164px;
+font-size:14px;
+padding:4px 6px;
+border-radius:4px;
+color:#555;
+border: linear .2;
+box-shadow: linear .2s;
+}
+textarea
+{
+width: 100%;
+height: 180px;
+font-size:14px;
+padding:4px 6px;
+border-radius:4px;
+color:#555;
+border: linear .2;
+box-shadow: linear .2s;
+}
+
+#hint
+	{
+	cursor: pointer;
+	}
+#hint a span { 
+	display: none;	
+	}
+#hint a:hover span { 
+	position: absolute;
+	display:inline-block;
+	background-color:#BDBDBD;
+	border-color:#BEBEBE;
+	margin-top:22px;
+	margin-left:-40px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 3px;
+	color:#000000;
+	cursor: pointer;
+	}
